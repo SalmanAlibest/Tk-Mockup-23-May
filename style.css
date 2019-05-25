@@ -1,0 +1,171 @@
+body,html{
+    margin: 0;
+    height:100%;
+    width:100%;
+}
+.container{
+    display: flex;
+    height:auto;
+    width:100%;
+    background-color: red;
+
+   }
+   .channel-bar{
+       background-color: #3f0d40;
+       display: flex;
+       flex-direction: column;
+       width: auto;
+       height: 100%;
+   }
+   .top-name{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin-left: 2px;
+       margin-right: 2px;
+   }
+   .top-name h2{
+       color: white;
+   }
+   .top-name p{
+       color: white;
+       margin-top: -20px;
+   }
+   .top-name i{
+       color:white;
+       font-size: 25px;
+   }
+    .channel-ip{
+        display: flex;
+}
+.channel-ip input{
+    height: 30px;
+    width:200px;
+    padding: 3px;
+    margin-right: 3px;
+    border:none;
+      background-color:#200720;
+}
+.channel-ip i{
+position: relative;
+margin-left: 5px;
+color: white;
+background-color: #200720;
+}
+.thread{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.thread i{
+    color:white;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+.thread h5{
+    color:white;
+    margin-left: 20px;
+   }
+   .channel-name{
+       display: flex;
+       flex-direction: column;
+}
+.channel-name .inner-channel-name{
+    display: flex;
+    justify-content: space-between;
+}
+.inner-channel-name h5{
+    color: white;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.inner-channel-name i{
+    color:white;
+    margin-top:35px;
+    margin-right: 5px;
+}
+.channel-name h6{
+    color: white;
+    font-size: 15px;
+}
+.message{
+   display: flex;
+   flex-direction: column; 
+}
+.message .inner-channel-name{
+    display: flex;
+    justify-content: space-between;
+
+}
+.message h6{
+    color:white;
+    margin-left:10px;
+}
+.chat-area{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+     width: 100%;
+     
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    
+    }
+.menu .left-menu
+{
+    display: inline;
+    list-style-type: none;
+}
+
+.menu .left-menu li
+{
+
+padding: 5px;
+border-right:2px solid black;
+display: inline;
+}
+.menu .right-menu
+{
+    display: inline;
+    list-style-type: none;
+}
+.menu .right-menu li
+{
+padding: 5px;
+
+display: inline;
+}
+.chat{
+    display: flex;
+    margin-top: 10px;
+}
+.bottom-search{
+display: flex;
+position: relative;
+}
+.bottom-search input{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+.bottom-search .srch{
+    font-size: 25px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.bottom-search .icn{
+    font-size: 25px;
+    position: absolute;
+    top:0;
+    right:30px;
+}
+.bottom-search .icn1{
+    font-size: 25px;
+    position: absolute;
+    top:0;
+    right:0px;
+}
